@@ -42,3 +42,9 @@
 	display:block; 
 	width:150px;
 }
+
+  /* Estilos para responsividade */
+       @media screen and (max-width: 600px) {
+           nav a {
+               float: none; /* Empilha os itens verticalmente em telas menores */
+               text-align: center;           }
